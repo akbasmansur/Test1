@@ -1,3 +1,3 @@
-function myFunction() {
+function TheFunction() {
     document.getElementById('demo').innerHTML ='Hallaç Mansur Akbaş';
   }
