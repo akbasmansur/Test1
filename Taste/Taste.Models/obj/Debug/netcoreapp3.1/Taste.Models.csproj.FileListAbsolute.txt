@@ -1,0 +1,8 @@
+C:\Users\MANSUR-PC\Desktop\Proje_Dizini\Taste\Taste.Models\bin\Debug\netcoreapp3.1\Taste.Models.deps.json
+C:\Users\MANSUR-PC\Desktop\Proje_Dizini\Taste\Taste.Models\bin\Debug\netcoreapp3.1\Taste.Models.dll
+C:\Users\MANSUR-PC\Desktop\Proje_Dizini\Taste\Taste.Models\bin\Debug\netcoreapp3.1\Taste.Models.pdb
+C:\Users\MANSUR-PC\Desktop\Proje_Dizini\Taste\Taste.Models\obj\Debug\netcoreapp3.1\Taste.Models.AssemblyInfoInputs.cache
+C:\Users\MANSUR-PC\Desktop\Proje_Dizini\Taste\Taste.Models\obj\Debug\netcoreapp3.1\Taste.Models.AssemblyInfo.cs
+C:\Users\MANSUR-PC\Desktop\Proje_Dizini\Taste\Taste.Models\obj\Debug\netcoreapp3.1\Taste.Models.csproj.CoreCompileInputs.cache
+C:\Users\MANSUR-PC\Desktop\Proje_Dizini\Taste\Taste.Models\obj\Debug\netcoreapp3.1\Taste.Models.dll
+C:\Users\MANSUR-PC\Desktop\Proje_Dizini\Taste\Taste.Models\obj\Debug\netcoreapp3.1\Taste.Models.pdb

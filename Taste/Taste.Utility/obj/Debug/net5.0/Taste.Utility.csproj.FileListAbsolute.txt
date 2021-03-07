@@ -1,0 +1,12 @@
+C:\Users\MANSUR-PC\Desktop\Proje_Dizini\Taste\Taste.Utility\bin\Debug\net5.0\Taste.Utility.deps.json
+C:\Users\MANSUR-PC\Desktop\Proje_Dizini\Taste\Taste.Utility\bin\Debug\net5.0\Taste.Utility.dll
+C:\Users\MANSUR-PC\Desktop\Proje_Dizini\Taste\Taste.Utility\bin\Debug\net5.0\ref\Taste.Utility.dll
+C:\Users\MANSUR-PC\Desktop\Proje_Dizini\Taste\Taste.Utility\bin\Debug\net5.0\Taste.Utility.pdb
+C:\Users\MANSUR-PC\Desktop\Proje_Dizini\Taste\Taste.Utility\obj\Debug\net5.0\Taste.Utility.csprojAssemblyReference.cache
+C:\Users\MANSUR-PC\Desktop\Proje_Dizini\Taste\Taste.Utility\obj\Debug\net5.0\Taste.Utility.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MANSUR-PC\Desktop\Proje_Dizini\Taste\Taste.Utility\obj\Debug\net5.0\Taste.Utility.AssemblyInfoInputs.cache
+C:\Users\MANSUR-PC\Desktop\Proje_Dizini\Taste\Taste.Utility\obj\Debug\net5.0\Taste.Utility.AssemblyInfo.cs
+C:\Users\MANSUR-PC\Desktop\Proje_Dizini\Taste\Taste.Utility\obj\Debug\net5.0\Taste.Utility.csproj.CoreCompileInputs.cache
+C:\Users\MANSUR-PC\Desktop\Proje_Dizini\Taste\Taste.Utility\obj\Debug\net5.0\Taste.Utility.dll
+C:\Users\MANSUR-PC\Desktop\Proje_Dizini\Taste\Taste.Utility\obj\Debug\net5.0\ref\Taste.Utility.dll
+C:\Users\MANSUR-PC\Desktop\Proje_Dizini\Taste\Taste.Utility\obj\Debug\net5.0\Taste.Utility.pdb
