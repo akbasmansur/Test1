@@ -26,15 +26,8 @@ using Taste;
 #line default
 #line hidden
 #nullable disable
-#nullable restore
-#line 3 "C:\Users\MANSUR-PC\Desktop\Proje_Dizini\Taste\Taste\Pages\_ViewImports.cshtml"
-using Taste.DataAccess;
-
-#line default
-#line hidden
-#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"f46088f7cbf982ef7202fa6e2bcf46385408fe88", @"/Pages/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"8e386c722d15f3eeb348faf1187fddd9422afe1e", @"/Pages/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"0e81d51dcf919c7ec22041d8ef9f2658229c4add", @"/Pages/_ViewImports.cshtml")]
     public class Pages_Index : global::Microsoft.AspNetCore.Mvc.RazorPages.Page
     {
         #pragma warning disable 1998
