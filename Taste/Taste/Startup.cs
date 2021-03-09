@@ -12,7 +12,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Taste.DataAccess;
+using Taste.DataAccess.Data;
 
 namespace Taste {
     public class Startup {
