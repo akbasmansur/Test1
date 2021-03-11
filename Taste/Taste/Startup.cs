@@ -13,6 +13,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Taste.DataAccess.Data;
+using Taste.DataAccess.Data.Repository;
+using Taste.DataAccess.Data.Repository.IRepository;
 
 namespace Taste {
     public class Startup {
@@ -30,6 +32,10 @@ namespace Taste {
             services.AddDatabaseDeveloperPageExceptionFilter();
             services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount=true)
                 .AddEntityFrameworkStores<ApplicationDbContext>();
+
+            //dependency injection artik kullanilabilir. -->UnitOfWork ile ilgili.
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
+
             //ASP.Net Core için iki tür routing var. Endpoint routing ve Classic routing
             services.AddMvc(options => options.EnableEndpointRouting = false)
                 .SetCompatibilityVersion(CompatibilityVersion.Latest);// En son 3.0 vardi. Bende latest i kullandim

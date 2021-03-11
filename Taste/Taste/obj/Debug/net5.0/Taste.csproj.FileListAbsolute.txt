@@ -401,3 +401,5 @@ C:\Users\MANSUR-PC\Desktop\Proje_Dizini\Taste\Taste\bin\Debug\net5.0\Taste.Model
 C:\Users\MANSUR-PC\Desktop\Proje_Dizini\Taste\Taste\bin\Debug\net5.0\Taste.Utility.dll
 C:\Users\MANSUR-PC\Desktop\Proje_Dizini\Taste\Taste\bin\Debug\net5.0\Taste.Models.pdb
 C:\Users\MANSUR-PC\Desktop\Proje_Dizini\Taste\Taste\bin\Debug\net5.0\Taste.Utility.pdb
+C:\Users\MANSUR-PC\Desktop\Proje_Dizini\Taste\Taste\obj\Debug\net5.0\Razor\Pages\Admin\Category\Index.cshtml.g.cs
+C:\Users\MANSUR-PC\Desktop\Proje_Dizini\Taste\Taste\obj\Debug\net5.0\Razor\Pages\Admin\Category\Upsert.cshtml.g.cs
