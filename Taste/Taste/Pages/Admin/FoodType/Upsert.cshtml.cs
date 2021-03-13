@@ -2,7 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Taste.DataAccess.Data.Repository.IRepository;
 
-namespace Taste.Pages.Admin.Category {
+namespace Taste.Pages.Admin.FoodType {
     public class UpsertModel : PageModel {
 
         private readonly IUnitOfWork _unitOfWork;
@@ -11,15 +11,15 @@ namespace Taste.Pages.Admin.Category {
         }
 
         [BindProperty]
-        public Models.Category CategoryObj { get; set; }
+        public Models.FoodType FoodTypeObj { get; set; }
         public IActionResult OnGet(int? id) {
 
-            CategoryObj = new Models.Category();
+            FoodTypeObj = new Models.FoodType();
             if(id != null) {
 
-                CategoryObj = _unitOfWork.Category.GetFirstOrDefault(u => u.Id == id);
+                FoodTypeObj = _unitOfWork.FoodType.GetFirstOrDefault(u => u.Id == id);
 
-                if(CategoryObj == null)
+                if(FoodTypeObj == null)
                     return NotFound();
             }
             return Page();
@@ -29,10 +29,10 @@ namespace Taste.Pages.Admin.Category {
             if(!ModelState.IsValid)
                 return Page();
 
-            if(CategoryObj.Id == 0)
-                _unitOfWork.Category.Add(CategoryObj);
+            if(FoodTypeObj.Id == 0)
+                _unitOfWork.FoodType.Add(FoodTypeObj);
             else
-                _unitOfWork.Category.Update(CategoryObj);
+                _unitOfWork.FoodType.Update(FoodTypeObj);
 
             _unitOfWork.Save();
 
