@@ -1,16 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Taste.DataAccess.Data.Repository.IRepository;
+﻿using Taste.DataAccess.Data.Repository.IRepository;
 
 namespace Taste.DataAccess.Data.Repository {
-    public class UnitOfWork:IUnitOfWork {
+    public class UnitOfWork : IUnitOfWork {
         private readonly ApplicationDbContext _db;
         public UnitOfWork(ApplicationDbContext db) {
-            _db=db;
-            Category=new CategoryRepository(_db);
+            _db = db;
+            Category = new CategoryRepository(_db);
         }
         public ICategoryRepository Category { get; private set; }
 

@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using Taste.Models;
 
 namespace Taste.DataAccess.Data.Repository.IRepository {
-    public interface ICategoryRepository : IRepository<Category> {
+    public interface IFoodTypeRepository : IRepository<FoodType> {
         IEnumerable<SelectListItem> GetCategoryListForDropDown();
-        void Update(Category category);
+        void Update(FoodType category);
     }
 }
