@@ -405,3 +405,5 @@ C:\Users\MANSUR-PC\Desktop\Proje_Dizini\Taste\Taste\obj\Debug\net5.0\Razor\Pages
 C:\Users\MANSUR-PC\Desktop\Proje_Dizini\Taste\Taste\obj\Debug\net5.0\Razor\Pages\Admin\Category\Upsert.cshtml.g.cs
 C:\Users\MANSUR-PC\Desktop\Proje_Dizini\Taste\Taste\obj\Debug\net5.0\Razor\Pages\Admin\FoodType\Index.cshtml.g.cs
 C:\Users\MANSUR-PC\Desktop\Proje_Dizini\Taste\Taste\obj\Debug\net5.0\Razor\Pages\Admin\FoodType\Upsert.cshtml.g.cs
+C:\Users\MANSUR-PC\Desktop\Proje_Dizini\Taste\Taste\obj\Debug\net5.0\Razor\Pages\Admin\MenuItem\Index.cshtml.g.cs
+C:\Users\MANSUR-PC\Desktop\Proje_Dizini\Taste\Taste\obj\Debug\net5.0\Razor\Pages\Admin\MenuItem\Upsert.cshtml.g.cs

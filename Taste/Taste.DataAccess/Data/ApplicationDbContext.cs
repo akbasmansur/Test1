@@ -1,8 +1,5 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Text;
 using Taste.Models;
 
 namespace Taste.DataAccess.Data {
@@ -12,5 +9,6 @@ namespace Taste.DataAccess.Data {
         }
         public DbSet<Category> Category { get; set; }
         public DbSet<FoodType> FoodType { get; set; }
+        public DbSet<MenuItem> MenuItem { get; set; }
     }
 }
