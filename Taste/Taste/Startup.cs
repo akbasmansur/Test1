@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
@@ -9,6 +10,7 @@ using Microsoft.Extensions.Hosting;
 using Taste.DataAccess.Data;
 using Taste.DataAccess.Data.Repository;
 using Taste.DataAccess.Data.Repository.IRepository;
+using Taste.Utility;
 
 namespace Taste {
     public class Startup {
@@ -24,8 +26,20 @@ namespace Taste {
                 options.UseSqlServer(
                     Configuration.GetConnectionString("DefaultConnection")));
             services.AddDatabaseDeveloperPageExceptionFilter();
-            services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount=true)
+
+            //AddDefaultIdentity yerine baska servis kullaniyoruz. Kullanici rolleri eklerken
+            services.AddIdentity<IdentityUser,IdentityRole>()
+                .AddDefaultTokenProviders()
                 .AddEntityFrameworkStores<ApplicationDbContext>();
+
+            services.ConfigureApplicationCookie(options => {
+                options.LoginPath = $"/Identity/Account/Login";
+                options.LogoutPath = $"/Identity/Account/Logout";
+                options.AccessDeniedPath = $"/Identity/Account/AccessDenied";
+            });
+
+            //Identity class larini falan ekledik ustteki degisikligi yaptik hata verince alttakini ekledik.
+            services.AddSingleton<IEmailSender,EmailSender>();
 
             //dependency injection artik kullanilabilir. -->UnitOfWork ile ilgili.
             services.AddScoped<IUnitOfWork, UnitOfWork>();

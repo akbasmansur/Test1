@@ -1,8 +1,23 @@
 {
   "version": 2,
-  "dgSpecHash": "JMU2LuzWZAzn13t9dpja2DFU3k3GrlRe6qpBQOWhHvdzBrUPnZKDJTwnUThT8CxUONpOlPE+lfdcaZu5C3ScGA==",
+  "dgSpecHash": "YaZvdsTLUPOmpbJFrW61wPaCF4y3biEL9jr87EZisAbQHF8t4+nfHQfXX7odihCFjkj5RyZX+1c5EXraVF4YOQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\MANSUR-PC\\Desktop\\Proje_Dizini\\Taste\\Taste.Utility\\Taste.Utility.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\MANSUR-PC\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.4\\microsoft.aspnetcore.cryptography.internal.5.0.4.nupkg.sha512",
+    "C:\\Users\\MANSUR-PC\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\5.0.4\\microsoft.aspnetcore.cryptography.keyderivation.5.0.4.nupkg.sha512",
+    "C:\\Users\\MANSUR-PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\5.0.4\\microsoft.aspnetcore.identity.ui.5.0.4.nupkg.sha512",
+    "C:\\Users\\MANSUR-PC\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\5.0.0\\microsoft.extensions.caching.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\MANSUR-PC\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\5.0.0\\microsoft.extensions.dependencyinjection.5.0.0.nupkg.sha512",
+    "C:\\Users\\MANSUR-PC\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\MANSUR-PC\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\5.0.0\\microsoft.extensions.fileproviders.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\MANSUR-PC\\.nuget\\packages\\microsoft.extensions.fileproviders.embedded\\5.0.4\\microsoft.extensions.fileproviders.embedded.5.0.4.nupkg.sha512",
+    "C:\\Users\\MANSUR-PC\\.nuget\\packages\\microsoft.extensions.identity.core\\5.0.4\\microsoft.extensions.identity.core.5.0.4.nupkg.sha512",
+    "C:\\Users\\MANSUR-PC\\.nuget\\packages\\microsoft.extensions.identity.stores\\5.0.4\\microsoft.extensions.identity.stores.5.0.4.nupkg.sha512",
+    "C:\\Users\\MANSUR-PC\\.nuget\\packages\\microsoft.extensions.logging\\5.0.0\\microsoft.extensions.logging.5.0.0.nupkg.sha512",
+    "C:\\Users\\MANSUR-PC\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\5.0.0\\microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\MANSUR-PC\\.nuget\\packages\\microsoft.extensions.options\\5.0.0\\microsoft.extensions.options.5.0.0.nupkg.sha512",
+    "C:\\Users\\MANSUR-PC\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -1,5 +1,7 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Taste.DataAccess.Data.Repository.IRepository;
+using Taste.Utility;
 
 namespace Taste.Controllers {
     [Route("api/[controller]")]
