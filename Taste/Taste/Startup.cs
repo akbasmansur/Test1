@@ -7,6 +7,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using System;
 using Taste.DataAccess.Data;
 using Taste.DataAccess.Data.Repository;
 using Taste.DataAccess.Data.Repository.IRepository;
@@ -15,7 +16,7 @@ using Taste.Utility;
 namespace Taste {
     public class Startup {
         public Startup(IConfiguration configuration) {
-            Configuration=configuration;
+            Configuration = configuration;
         }
 
         public IConfiguration Configuration { get; }
@@ -28,7 +29,7 @@ namespace Taste {
             services.AddDatabaseDeveloperPageExceptionFilter();
 
             //AddDefaultIdentity yerine baska servis kullaniyoruz. Kullanici rolleri eklerken
-            services.AddIdentity<IdentityUser,IdentityRole>()
+            services.AddIdentity<IdentityUser, IdentityRole>()
                 .AddDefaultTokenProviders()
                 .AddEntityFrameworkStores<ApplicationDbContext>();
 
@@ -39,10 +40,16 @@ namespace Taste {
             });
 
             //Identity class larini falan ekledik ustteki degisikligi yaptik hata verince alttakini ekledik.
-            services.AddSingleton<IEmailSender,EmailSender>();
+            services.AddSingleton<IEmailSender, EmailSender>();
 
             //dependency injection artik kullanilabilir. -->UnitOfWork ile ilgili.
             services.AddScoped<IUnitOfWork, UnitOfWork>();
+             
+            services.AddSession(options => {
+                options.IdleTimeout = TimeSpan.FromMinutes(10);
+                options.Cookie.HttpOnly = true;
+                options.Cookie.IsEssential=true;
+            });
 
             //ASP.Net Core için iki tür routing var. Endpoint routing ve Classic routing
             services.AddMvc(options => options.EnableEndpointRouting = false)
@@ -54,7 +61,7 @@ namespace Taste {
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app,IWebHostEnvironment env) {
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env) {
             if(env.IsDevelopment()) {
                 app.UseDeveloperExceptionPage();
                 app.UseMigrationsEndPoint();
@@ -67,7 +74,7 @@ namespace Taste {
 
             app.UseHttpsRedirection();
             app.UseStaticFiles();
-
+            app.UseSession();
             //app.UseRouting(); //sildik.
 
             app.UseAuthentication();

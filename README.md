@@ -22,3 +22,6 @@
 
 ### Lesson 75
 ###### Menuitem Upsert post fonksiyonunun yazılması. Resim ile ilgili işlemlerin nasıl gerçekleştiğini gösteriyor.
+
+### Lesson 105
+###### Startup.cs class'a services.AddSession() ve app.UseSession(); i ekledik
