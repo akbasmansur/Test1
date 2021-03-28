@@ -493,3 +493,4 @@ C:\Users\MANSUR-PC\Desktop\Proje_Dizini\Taste\Taste\obj\Debug\net5.0\Razor\Areas
 C:\Users\MANSUR-PC\Desktop\Proje_Dizini\Taste\Taste\obj\Debug\net5.0\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
 C:\Users\MANSUR-PC\Desktop\Proje_Dizini\Taste\Taste\obj\Debug\net5.0\Razor\Pages\Admin\User\Index.cshtml.g.cs
 C:\Users\MANSUR-PC\Desktop\Proje_Dizini\Taste\Taste\obj\Debug\net5.0\Razor\Pages\Customer\Home\Details.cshtml.g.cs
+C:\Users\MANSUR-PC\Desktop\Proje_Dizini\Taste\Taste\obj\Debug\net5.0\Razor\Pages\Customer\Cart\Index.cshtml.g.cs
